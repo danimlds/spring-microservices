@@ -30,7 +30,6 @@ public class WorkerResource {
 		return ResponseEntity.ok(list);
 	}
 	
-	
 	@GetMapping(value = "/{id}")
 	public ResponseEntity <Worker> findById(@PathVariable Long id) {
 		
